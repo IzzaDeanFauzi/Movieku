@@ -1,7 +1,6 @@
-package com.example.linda.movieku;
+package com.example.izzaganteng.movieku;
 
 import android.content.Intent;
-import android.media.audiofx.BassBoost;
 import android.provider.Settings;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -15,13 +14,15 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.izzaganteng.movieku.R;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<ArrayList<Movie>> {
     private RecyclerView recyclerView;
     private ArrayList<Movie> list;
 
-    private String URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=1d9299a29221a1559ed29a176a232ab0&region=ID";
+    private String URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=1d9299a29221a1559ed29a176a232ab0&region=FR";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,4 +1,4 @@
-package com.example.linda.movieku;
+package com.example.izzaganteng.myapps;
 
 import org.junit.Test;
 

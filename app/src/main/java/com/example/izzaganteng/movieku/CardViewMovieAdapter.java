@@ -1,4 +1,4 @@
-package com.example.linda.movieku;
+package com.example.izzaganteng.movieku;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.example.izzaganteng.movieku.R;
 
 import java.util.ArrayList;
 

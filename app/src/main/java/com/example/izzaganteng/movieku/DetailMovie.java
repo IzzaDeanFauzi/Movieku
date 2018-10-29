@@ -1,4 +1,4 @@
-package com.example.linda.movieku;
+package com.example.izzaganteng.movieku;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,8 +6,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-
-import org.w3c.dom.Text;
+import com.example.izzaganteng.movieku.R;
 
 public class DetailMovie extends AppCompatActivity {
     private TextView txtTitle;

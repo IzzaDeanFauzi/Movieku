@@ -1,4 +1,4 @@
-package com.example.linda.movieku;
+package com.example.izzaganteng.movieku;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
